@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    .selected {
+      background: #cb8655;
+    }
+
+    li {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<ul id="ul">
+  <li>ONE</li>
+  <li>TWO</li>
+  <li>THREE</li>
+</ul>
+
+<script>
+  ul.onclick = function(event) {
+    if (event.target.tagName != "LI") return;
+
+    if (event.ctrlKey || event.metaKey) {
+      toggleSelect(event.target);
+    } else {
+      singleSelect(event.target);
+    }
+
+  }
+
+  // предотвращает ненужное выделение элементов списка при клике
+  ul.onmouse = function() {
+    return false;
+  };
+
+  function toggleSelect(li) {
+    li.classList.toggle('selected');
+  }
+
+  function singleSelect(li) {
+    let selected = ul.querySelectorAll('.selected');
+    for(let elem of selected) {
+      elem.classList.remove('selected');
+    }
+    li.classList.add('selected');
+  }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+ul.grid{
+    background: #cec5a3;
+    width: 350px;
+    border: 1px solid;
+}
+ul.grid li{
+    list-style: none;
+    display: inline-block;
+    background: #9d4747;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    margin: 6px;
+    border: 1px solid;
+}
+
+.collection{
+    min-height: 130px;
+    max-width: 450px;
+    background: #6775b4;
+    float: left;
+}
+.draggablediv{
+    float: right;
+}
+.draggable{
+    cursor: pointer;
+}
+.icon-remove{
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.heading{
+    background: #5bb243;
+    color: brown;
+    float: right;
+}
