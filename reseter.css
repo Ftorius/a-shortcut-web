@@ -1,0 +1,58 @@
+html {
+    line-height: 1.15;
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;  border-width: 0;  border-style: solid;
+}
+p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {
+    margin: 0;  padding: 0;
+}
+button {
+    background-color: transparent;
+}
+a {
+    color: inherit;  text-decoration: inherit;
+}
+input {
+    padding: 2px 4px;
+}
+img {
+    display: block;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+body {
+    font-weight: 400;
+    font-style:normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: var(--dl-color-gray-black);
+    background-color: var(--dl-color-gray-white);
+
+}
+
+html {
+    font-family: Inter;
+    font-size: 16px;
+}
+
+body {
+    font-weight: 400;
+    font-style:normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: var(--dl-color-gray-black);
+    background-color: var(--dl-color-gray-white);
+
+}
